@@ -27,3 +27,7 @@
 .add-subheadline-label{
 @apply mx-2 uppercase tracking-widest font-medium text-xs text-gray-400 text-center;
 }
+.add-button{
+    @apply mx-auto text-center uppercase tracking-wider py-4 px-6 text-xs font-medium 
+    cursor-pointer hover:bg-opacity-90 ;
+}
