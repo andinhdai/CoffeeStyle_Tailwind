@@ -18,3 +18,12 @@
 {
     @apply px-1.5 py-1 text-center rounded-full text-xs;
 }
+.add-subheadline{
+    @apply flex justify-center items-center mb-24;
+}
+.add-subheadline-decoline{
+    @apply w-8 h-px bg-gray-300;
+}
+.add-subheadline-label{
+@apply mx-2 uppercase tracking-widest font-medium text-xs text-gray-400 text-center;
+}
