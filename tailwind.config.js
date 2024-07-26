@@ -22,6 +22,9 @@ module.exports = {
         slideDown: 'slideDown 0.3s ease-out',
         
       },
+      backgroundImage:{
+        'slider-image':'url("./assets/images/slider.jpg")'
+      }
     },
   },
   plugins: [],
