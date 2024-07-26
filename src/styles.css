@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-topmenu-expanded{
+    @apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
+}
+.ct-top-menu-item{
+    @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:h-0.5 after:left-0 after:bg-light-coffee
+    after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+}
+.add-icon{
+    @apply w-5 h-5 inline-block;
+}
+.add-badge-circle
+{
+    @apply px-1.5 py-1 text-center rounded-full text-xs;
+}
