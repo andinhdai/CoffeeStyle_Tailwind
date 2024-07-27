@@ -8,6 +8,9 @@ module.exports = {
       fontFamily:{
         'Karla':['Karla','sans-serif'],
       },
+      screens: {
+      'xs': '480px'
+    },
       colors:{
         'light-coffee':'#C89F94'
       },
