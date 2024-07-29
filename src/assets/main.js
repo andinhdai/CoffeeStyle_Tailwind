@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
+        var video = document.getElementById('story-video');
+            video.muted = true;
        
     
 });
