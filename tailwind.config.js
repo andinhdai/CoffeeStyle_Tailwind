@@ -1,16 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    screens: {
+      'xs': '480px',
+      ...defaultTheme.screens,
+    },
     extend: {
       fontFamily:{
         'Karla':['Karla','sans-serif'],
       },
-      screens: {
-      'xs': '480px'
-    },
       colors:{
         'light-coffee':'#C89F94'
       },
