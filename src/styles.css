@@ -37,3 +37,9 @@
 .add-div-menu-blog{
     @apply pl-3 border-l-2 border-red-300 hover:bg-slate-200 hover:text-slate-900 text-gray-500 py-2;
 }
+.add-cart-show{
+    @apply absolute animate-slideOut;
+}
+.add-cart-hidden{
+    @apply absolute animate-slideIn;
+}
