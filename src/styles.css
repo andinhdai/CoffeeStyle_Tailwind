@@ -31,3 +31,9 @@
     @apply  text-center uppercase tracking-wider py-4 px-6 text-xs font-medium 
     cursor-pointer hover:bg-opacity-90 ;
 }
+.add-story-blog{
+    @apply flex flex-col md:flex-row items-center text-center lg:text-left gap-8 ;
+}
+.add-div-menu-blog{
+    @apply pl-3 border-l-2 border-red-300 hover:bg-slate-200 hover:text-slate-900 text-gray-500 py-2;
+}
