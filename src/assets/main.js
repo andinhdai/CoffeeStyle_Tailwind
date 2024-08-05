@@ -29,8 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
         Cart.style.top = '0';
         Cart.classList.remove('hidden');
         Cart.classList.add('add-cart-show');
-        Cart.classList.remove('hidden');
-        Cart.classList.add('add-cart-show');
         
     }
     function closeCartWithAnimation() {
