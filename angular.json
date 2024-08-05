@@ -28,8 +28,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/main.js",
-              "src/assets/Cart.js"
+              "src/assets/main.js"
             ]
           },
           "configurations": {
